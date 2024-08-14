@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Daydream;
+    src: url("/fonts/Daydream.ttf");
+}
+
 body {
     margin-top: 0;
     margin-bottom: 0;
@@ -9,7 +14,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position:center;
-    font-family: "Trebuchet MS", Tahoma, sans-serif;;
+    font-family: Daydream;
     font-size: 12px;
     cursor: url(https://cur.cursors-4u.net/nature/nat-1/nat21.ani), url(https://cur.cursors-4u.net/nature/nat-1/nat21.png), auto !important;
   }
