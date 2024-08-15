@@ -25,14 +25,14 @@ body {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 120px;
+    padding-left: 160px;
     padding-right: 0;
     background: darkseagreen;
 	background-size: cover;
 	background-attachment: fixed;
     background-position:center;
     font-family: Dogica;
-	font-size: 12px;
+	font-size: 11px;
     align-content: right;
     height: 100%;
     overflow: hidden;
@@ -50,7 +50,7 @@ header{
 }
 
 header h1{
-    font-size: min(4vh, 3vw);
+    font-size: min(3vh, 2vw);
     margin: 0;
     width: 100%;
     overflow: hidden;
@@ -60,7 +60,7 @@ header h1{
 }
 
 header h3{
-    font-size: min(2vh, 2vw);
+    font-size: min(1vh, 1vw);
     margin: 1vh;
     text-align: center;
 }
@@ -149,6 +149,7 @@ footer{
     height:30px;
     font-size: 11px;
     align-content: center;
+    font-family: Daydream, Dogica;
 }
 
 
@@ -158,7 +159,7 @@ footer{
     display: flex;
         flex-flow: column;
     height: 100%;
-    width: 120px;
+    width: 160px;
     position: fixed;
     left: 0;
     top:0;
@@ -173,7 +174,7 @@ footer{
 .sidenav a{
     padding: 8px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     color: darkseagreen;
     display: block;
     transition: all .5s ease-in-out;
@@ -182,7 +183,7 @@ footer{
 .sidenav h3{
     color: darkseagreen;
     text-decoration: underline darkseagreen;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .sidenav a:hover{
@@ -194,15 +195,18 @@ footer{
 h1{
     color: white;
     font-size: 28px;
+    font-family: Daydream, Dogica;
 }
 
 h2{
     color: rosybrown;
+    font-family: Daydream, Dogica;
 }
 
 h3{
     color: floralwhite;
-    font-style: italic
+    font-style: italic;
+    font-family: Daydream, Dogica;
 }
 
 
