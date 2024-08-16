@@ -32,7 +32,7 @@ body {
 	background-attachment: fixed;
     background-position:center;
     font-family: Dogica;
-	font-size: 11px;
+	font-size: 10px;
     align-content: right;
     height: 100%;
     overflow: hidden;
@@ -122,7 +122,8 @@ header h3{
 
 .box:nth-child(5){
     grid-row: span 2;
-    grid-column: span 1
+    grid-column: span 1;
+    font-size: xx-small;
 }
 
 
